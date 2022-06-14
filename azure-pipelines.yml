@@ -3,7 +3,9 @@ trigger:
 - master
 
 pool:
-  vmImage: Default
+  name: Default
+  demands:
+   - agent.name -equals myvm
 
 steps:
 - script: echo Hello, world!
