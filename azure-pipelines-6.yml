@@ -5,7 +5,7 @@ trigger:
 pool:
   name: Default
   demands:
-  -  agent.name:-equals.myvm
+  -  agent.name:-equals myvm
 
 steps:
 - script: echo Hello, world!
