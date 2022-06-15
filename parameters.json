@@ -6,7 +6,7 @@
             "value": "westeurope"
         },
         "virtualMachineName": {
-            "value": "myvm"
+            "value": "winvm"
         },
         "virtualMachineSize": {
             "value": "Standard_DS1_v2"
